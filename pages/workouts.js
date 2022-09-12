@@ -45,7 +45,7 @@ export default function Workout() {
                 return <>
                     <Row align="center" css={{ mx: "auto", width: "fit-content" }} >
                         <Col css={{ mr: "$4" }}>
-                            <Tooltip content="Editar">
+                            <Tooltip placement="top" content="Editar">
                                 <BiEditAlt size={20} />
                             </Tooltip>
                         </Col>
